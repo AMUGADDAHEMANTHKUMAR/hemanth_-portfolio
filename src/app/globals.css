@@ -264,7 +264,7 @@ nav {
 }
 
 .social-label {
-  display: none;
+  display: inline;
 }
 
 .contact-heading-wrapper {
@@ -581,7 +581,8 @@ nav {
   }
 
   .social-label {
-    display: inline;
+    display: inline !important;
+    font-size: 1.25rem !important;
   }
 
   .contact-email {
